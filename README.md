@@ -6,4 +6,4 @@ Athanor lab (Aleksei Kudriashov). Chosen by the lab's radar on 15 November 2026 
 
 License: text and data CC BY 4.0, code MIT.
 
-Archived on Zenodo: version 1.0, [doi:10.5281/zenodo.24239159](https://doi.org/10.5281/zenodo.24239159) (all versions: [doi:10.5281/zenodo.24239158](https://doi.org/10.5281/zenodo.24239158)).
+Archived on Zenodo: version 1.1, [doi:10.5281/zenodo.24240223](https://doi.org/10.5281/zenodo.24240223); version 1.0, [doi:10.5281/zenodo.24239159](https://doi.org/10.5281/zenodo.24239159) (all versions: [doi:10.5281/zenodo.24239158](https://doi.org/10.5281/zenodo.24239158)).
