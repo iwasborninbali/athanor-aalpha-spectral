@@ -1,0 +1,6 @@
+n=2 connected=1 nonregular=0 nontransregular=0 Q=0 Dist=0 DistQ=0 Dalpha=0 alpha0=0 alpha_ge_half=0
+n=3 connected=4 nonregular=3 nontransregular=3 Q=3 Dist=0 DistQ=0 Dalpha=3 alpha0=0 alpha_ge_half=0
+n=4 connected=38 nonregular=34 nontransregular=34 Q=4 Dist=0 DistQ=0 Dalpha=22 alpha0=0 alpha_ge_half=0
+n=5 connected=728 nonregular=715 nontransregular=715 Q=15 Dist=0 DistQ=0 Dalpha=55 alpha0=0 alpha_ge_half=0
+n=6 connected=26704 nonregular=26558 nontransregular=26558 Q=21 Dist=0 DistQ=0 Dalpha=1448 alpha0=0 alpha_ge_half=0
+method=all labeled undirected edge masks n=2..6; stdlib Fractions + Floyd-Warshall
