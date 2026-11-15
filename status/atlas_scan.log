@@ -1,0 +1,29 @@
+atlas_scan v1
+python 3.13.5 numpy 2.3.5 networkx 3.6.1
+atlas_count 1253
+degrees/orders per odd n
+n 3 unlabeled_graphs 4
+alpha=0.00 max_lambda2=0.000000000000 witness_atlas=4 min_lambda=-1.414213562373 min_atlas=6
+alpha=0.25 max_lambda2=0.250000000000 witness_atlas=6 min_lambda=-0.693000468165 min_atlas=6
+alpha=0.49 max_lambda2=0.490000000000 witness_atlas=6 min_lambda=-0.026725016000 min_atlas=6
+alpha=0.50 max_lambda2=0.500000000000 witness_atlas=6 min_lambda=0.000000000000 min_atlas=4
+alpha=0.75 max_lambda2=1.250000000000 witness_atlas=7 min_lambda=0.000000000000 min_atlas=4
+alpha=.25 maximizer_ids [6]
+example_edges [(0, 1), (0, 2)]
+n 5 unlabeled_graphs 34
+alpha=0.00 max_lambda2=1.000000000000 witness_atlas=22 min_lambda=-2.449489742783 min_atlas=44
+alpha=0.25 max_lambda2=1.250000000000 witness_atlas=42 min_lambda=-1.216364982832 min_atlas=44
+alpha=0.49 max_lambda2=1.490000000000 witness_atlas=42 min_lambda=-0.048037705647 min_atlas=44
+alpha=0.50 max_lambda2=1.500000000000 witness_atlas=42 min_lambda=0.000000000000 min_atlas=19
+alpha=0.75 max_lambda2=2.750000000000 witness_atlas=46 min_lambda=0.000000000000 min_atlas=19
+alpha=.25 maximizer_ids [42]
+example_edges [(0, 1), (0, 4), (1, 4), (2, 3), (2, 4), (3, 4)]
+n 7 unlabeled_graphs 1044
+alpha=0.00 max_lambda2=2.000000000000 witness_atlas=269 min_lambda=-3.464101615138 min_atlas=1007
+alpha=0.25 max_lambda2=2.250000000000 witness_atlas=1009 min_lambda=-1.726081505836 min_atlas=1007
+alpha=0.49 max_lambda2=2.490000000000 witness_atlas=1009 min_lambda=-0.068598889885 min_atlas=1007
+alpha=0.50 max_lambda2=2.500000000000 witness_atlas=670 min_lambda=0.000000000000 min_atlas=209
+alpha=0.75 max_lambda2=4.250000000000 witness_atlas=790 min_lambda=0.000000000000 min_atlas=209
+alpha=.25 maximizer_ids [1009]
+example_edges [(0, 3), (0, 4), (0, 6), (1, 2), (1, 4), (1, 5), (2, 4), (2, 5), (3, 4), (3, 6), (4, 5), (4, 6)]
+END atlas_scan
