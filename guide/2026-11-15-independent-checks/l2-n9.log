@@ -1,0 +1,7 @@
+n=9 alpha=0.0000 max=3.000000000 target=3.000000000 violations=0 equality=17 ['H?aKZ`p', 'HCQQShI', 'HCQQShi']
+n=9 alpha=0.0500 max=3.050000000 target=3.050000000 violations=0 equality=1 ['HQhTQj~']
+n=9 alpha=0.1250 max=3.125000000 target=3.125000000 violations=0 equality=1 ['HQhTQj~']
+n=9 alpha=0.2500 max=3.250000000 target=3.250000000 violations=0 equality=1 ['HQhTQj~']
+n=9 alpha=0.3333 max=3.333333333 target=3.333333333 violations=0 equality=1 ['HQhTQj~']
+n=9 alpha=0.4000 max=3.400000000 target=3.400000000 violations=0 equality=1 ['HQhTQj~']
+n=9 alpha=0.4900 max=3.490000000 target=3.490000000 violations=0 equality=1 ['HQhTQj~']

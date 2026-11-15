@@ -1,0 +1,7 @@
+n=5 alpha=0.0000 max=1.000000000 target=1.000000000 violations=0 equality=6 ['DCO', 'DCW', 'DQo']
+n=5 alpha=0.0500 max=1.050000000 target=1.050000000 violations=0 equality=1 ['DQ{']
+n=5 alpha=0.1250 max=1.125000000 target=1.125000000 violations=0 equality=1 ['DQ{']
+n=5 alpha=0.2500 max=1.250000000 target=1.250000000 violations=0 equality=1 ['DQ{']
+n=5 alpha=0.3333 max=1.333333333 target=1.333333333 violations=0 equality=1 ['DQ{']
+n=5 alpha=0.4000 max=1.400000000 target=1.400000000 violations=0 equality=1 ['DQ{']
+n=5 alpha=0.4900 max=1.490000000 target=1.490000000 violations=0 equality=1 ['DQ{']
