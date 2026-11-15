@@ -1,0 +1,17 @@
+method=NetworkX graph_atlas_g, connected unlabeled n=2..7, exact Fraction except Sombor float
+networkx_version=3.6.1
+connected=995
+nonregular=980
+nontransmission_regular=980
+Q_degwitness=9
+distance_trwitness=2
+distanceQ_trwitness=0
+Dalpha_interior_or_zero=41
+Dalpha_alpha0=2
+Dalpha_alpha_below_half=39
+Dalpha_alpha_at_least_half=0
+Sombor_degwitness_numeric=0
+example_Dalpha_interior_or_zero=(6, 'Bo', '1/4')
+example_Q_degwitness=(6, 'Bo')
+example_distance_trwitness=(1184, 'FF~ww')
+Sombor threshold=1e-9; finite test, not a proof
