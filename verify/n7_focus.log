@@ -1,0 +1,8 @@
+progress 262144 cpu_s 6.79
+progress 524288 cpu_s 13.85
+progress 786432 cpu_s 20.96
+progress 1048576 cpu_s 28.53
+progress 1310720 cpu_s 35.74
+progress 1572864 cpu_s 43.22
+progress 1835008 cpu_s 50.63
+FINAL n 7 graphs 2097152 alpha 0.25 P29_original_violations 1737411 first (223, np.float64(-0.769322099), -0.785714286, 6) P29_corrected_violations 0 P20_bound_violations 0 P20_nonregular_equal_row_sums 2653 first (120383, [np.int64(6), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(3)]) cpu_s 57.944
