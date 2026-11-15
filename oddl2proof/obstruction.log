@@ -1,0 +1,4 @@
+alpha=0 poly=lambda*(lambda + 2)*(lambda**3 - 2*lambda**2 - 2*lambda + 2) lambda2_isolated_in=[46483/67475,32535/47228] upper_bound=6889/10000 PASS
+alpha=1/4 poly=(16*lambda**2 + 4*lambda - 9)*(16*lambda**3 - 52*lambda**2 + 25*lambda + 12)/256 lambda2_isolated_in=[26942/26103,115507/111910] lower_bound=51607/50000 PASS
+alpha=1/2 poly=(4*lambda**2 - 6*lambda + 1)*(4*lambda**3 - 18*lambda**2 + 23*lambda - 8)/16 lambda2_isolated_in=[91297/66497,23682/17249] upper_bound=8581/6250 PASS
+STRICT FAILURE: lambda2(A_1/4) > 103214/100000 > (68890/100000+137296/100000)/2 > (lambda2(A_0)+lambda2(A_1/2))/2
