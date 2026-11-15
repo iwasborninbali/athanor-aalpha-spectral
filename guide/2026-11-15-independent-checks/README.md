@@ -58,3 +58,17 @@ The generalized-distance family K_t join I_m was checked numerically for 1 <= t 
 alpha(t,m) in [0,1): all 23 members attain equality, transmission-irregular; K_3 join I_4 and K_4 join I_3 have
 rho(D) = 8 and 7 at alpha = 0. In athanor-bent-two-three-weight-codes, the five `codesdeep/` programs were
 replayed and reproduce their committed logs byte for byte.
+
+## 5. Second round (2026-11-15): `manydegrees/`, `p30stability/`, `oddl2proof/`
+
+- **Unbounded degree variety.** `staircase-check.log`: the guide rebuilt the staircase graphs from the written
+  construction in `manydegrees/REPORT.md` (not from its code) and checked them in exact arithmetic for
+  k = 2..40: each is connected, has exactly k distinct degrees on 2k vertices, and all row sums equal (2k+1)/3
+  at alpha = 1/3. All 19 witnesses in `manydegrees/witnesses.tsv` pass `eq22.py`. So equality graphs of
+  (20)-(21) can have arbitrarily many distinct degrees.
+- **Runner-up for Problem 30.** `p30_second.py` on all graphs of order 4-9 at alpha in {0.1, 0.25, 0.4, 0.49}
+  (numpy, tolerance 1e-9): the second smallest least eigenvalue is attained by exactly one graph, matching
+  `p30stability/` for n = 4..7 (K_{1,3}, K_{2,3} minus an edge, K_{2,4}, K_{3,4} minus an edge) and extending
+  its conjecture to n = 8 (K_{3,5}) and n = 9 (K_{4,5} minus an edge). Floating point corroborates; the
+  all-n runner-up remains a conjecture.
+- `oddl2proof/` is a partial result (all odd n for alpha near 0, exact for n <= 7); the general case stays open.
