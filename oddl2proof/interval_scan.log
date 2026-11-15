@@ -1,0 +1,9 @@
+method=integer Bareiss + finite differences + SymPy exact root isolation + real-rooted Descartes
+python=3.13.5 networkx=3.6.1 sympy=1.14.0
+n=3 graphs=4 alpha0_equal=3 identically_zero=1 interior_root_graphs=0 interior_simple_roots=0 isolated_samples=3 endpoint_half_zeros=1 max_positive=1 failures=0
+n=3 roots_by_graph=identically=Bo
+n=5 graphs=34 alpha0_equal=6 identically_zero=1 interior_root_graphs=0 interior_simple_roots=0 isolated_samples=33 endpoint_half_zeros=11 max_positive=1 failures=0
+n=5 roots_by_graph=identically=D`{
+n=7 graphs=1044 alpha0_equal=11 identically_zero=1 interior_root_graphs=38 interior_simple_roots=40 isolated_samples=1151 endpoint_half_zeros=93 max_positive=1 failures=0
+n=7 roots_by_graph=FG?`G:1,FOgK?:1,Fg?`G:1,FMo??:1,Fh@A?:2,FGC`G:1,FJO_G:1,FH?gg:1,FIO`G:1,FDgG_:1,FBO`G:1,FGOgg:1,FaOGg:1,FiO_G:2,FIo`?:1,Fx_?G:1,FLg?G:1,FK_`G:1,FgC`G:1,FHHGg:1,FhoG_:1,FhD@G:1,FIo`G:1,Fh_gG:1,FpQO_:1,FXAGg:1,Fk_`G:1,FMo`?:1,FK_h_:1,FIc`G:1,FMo@G:1,FPq?g:1,FKc`G:1,Fh_gg:1,FMo`G:1,FhEIG:1,FhEK_:1,F`ooo:1,identically=FK|ko
+THEOREM VERIFIED EXACTLY for n=3,5,7 and ALL real alpha in [0,1/2): lambda2<=m-1+alpha; equality for positive alpha only H_m.
