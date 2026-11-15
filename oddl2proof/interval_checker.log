@@ -1,0 +1,6 @@
+method=direct SymPy polynomial determinant + isolated real roots + rational symmetric congruences
+python=3.13.5 networkx=3.6.1 sympy=1.14.0
+n=3 graphs=4 alpha0_equal=3 identically_zero=1 root_graphs=0 interior_simple_roots=0 rational_pivot_tests=3 max_positive=1 failures=0
+n=5 graphs=34 alpha0_equal=6 identically_zero=1 root_graphs=0 interior_simple_roots=0 rational_pivot_tests=33 max_positive=1 failures=0
+n=7 graphs=1044 alpha0_equal=11 identically_zero=1 root_graphs=38 interior_simple_roots=40 rational_pivot_tests=1151 max_positive=1 failures=0
+INDEPENDENT CHECK PASSED for every odd-order unlabeled graph n=3,5,7 and all alpha in [0,1/2).
