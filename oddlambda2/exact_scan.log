@@ -1,0 +1,42 @@
+n=5 graph_count=34 expected=34
+n=5 alpha=0/1 bound=1+0/1 violations=0 equality=6 pos0=3 first=DOC
+n=5 alpha=1/20 bound=1+1/20 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=1/10 bound=1+1/10 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=1/8 bound=1+1/8 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=1/6 bound=1+1/6 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=1/5 bound=1+1/5 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=1/4 bound=1+1/4 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=1/3 bound=1+1/3 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=2/5 bound=1+2/5 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=9/20 bound=1+9/20 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=12/25 bound=1+12/25 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=49/100 bound=1+49/100 violations=0 equality=1 pos0=3 first=D`{
+n=5 alpha=499/1000 bound=1+499/1000 violations=0 equality=1 pos0=3 first=D`{
+n=7 graph_count=1044 expected=1044
+n=7 alpha=0/1 bound=2+0/1 violations=0 equality=11 pos0=44 first=FCc`G
+n=7 alpha=1/20 bound=2+1/20 violations=0 equality=1 pos0=44 first=FK|ko
+n=7 alpha=1/10 bound=2+1/10 violations=0 equality=1 pos0=45 first=FK|ko
+n=7 alpha=1/8 bound=2+1/8 violations=0 equality=1 pos0=46 first=FK|ko
+n=7 alpha=1/6 bound=2+1/6 violations=0 equality=1 pos0=49 first=FK|ko
+n=7 alpha=1/5 bound=2+1/5 violations=0 equality=1 pos0=55 first=FK|ko
+n=7 alpha=1/4 bound=2+1/4 violations=0 equality=1 pos0=58 first=FK|ko
+n=7 alpha=1/3 bound=2+1/3 violations=0 equality=1 pos0=69 first=FK|ko
+n=7 alpha=2/5 bound=2+2/5 violations=0 equality=1 pos0=73 first=FK|ko
+n=7 alpha=9/20 bound=2+9/20 violations=0 equality=1 pos0=76 first=FK|ko
+n=7 alpha=12/25 bound=2+12/25 violations=0 equality=1 pos0=78 first=FK|ko
+n=7 alpha=49/100 bound=2+49/100 violations=0 equality=1 pos0=80 first=FK|ko
+n=7 alpha=499/1000 bound=2+499/1000 violations=0 equality=1 pos0=80 first=FK|ko
+n=9 graph_count=274668 expected=274668
+n=9 alpha=0/1 bound=3+0/1 violations=0 equality=17 pos0=5650 first=H?CW~B`
+n=9 alpha=1/20 bound=3+1/20 violations=0 equality=1 pos0=6367 first=HJ]CKN~
+n=9 alpha=1/10 bound=3+1/10 violations=0 equality=1 pos0=7181 first=HJ]CKN~
+n=9 alpha=1/8 bound=3+1/8 violations=0 equality=1 pos0=7603 first=HJ]CKN~
+n=9 alpha=1/6 bound=3+1/6 violations=0 equality=1 pos0=8360 first=HJ]CKN~
+n=9 alpha=1/5 bound=3+1/5 violations=0 equality=1 pos0=8930 first=HJ]CKN~
+n=9 alpha=1/4 bound=3+1/4 violations=0 equality=1 pos0=9820 first=HJ]CKN~
+n=9 alpha=1/3 bound=3+1/3 violations=0 equality=1 pos0=11291 first=HJ]CKN~
+n=9 alpha=2/5 bound=3+2/5 violations=0 equality=1 pos0=12435 first=HJ]CKN~
+n=9 alpha=9/20 bound=3+9/20 violations=0 equality=1 pos0=13121 first=HJ]CKN~
+n=9 alpha=12/25 bound=3+12/25 violations=0 equality=1 pos0=13468 first=HJ]CKN~
+n=9 alpha=49/100 bound=3+49/100 violations=0 equality=1 pos0=13533 first=HJ]CKN~
+n=9 alpha=499/1000 bound=3+499/1000 violations=0 equality=1 pos0=13604 first=HJ]CKN~
