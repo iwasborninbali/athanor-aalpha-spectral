@@ -129,7 +129,7 @@ Here f(r,s)=[alpha*n-sqrt(alpha^2*n^2+4*c*r*s)]/2. For the one-edge deletion, th
 
 **Exact method.** atlas_exact.py uses the standard NetworkX atlas of every isomorphism representative through order seven (4, 11, 34, 156, 1044 at n=3..7). At each of 20 (n,alpha) pairs a numerical exploratory search *only proposes* a rational threshold t between the candidate and its next-nearest competitor. An independent integer Bareiss determinant routine proves that A_alpha(K_{p,q})-tI and A_alpha(candidate)-tI each have negative determinant (hence a negative direction), whereas **every other atlas graph** has all positive leading principal minors of A_alpha(G)-tI (hence is positive definite by Sylvester). Exact separating t values and zero failures are in atlas_exact.log. All inequality certificates use integers; the exploratory floating-point values are not relied upon for certification. This proves the finite classification conditional on the standard atlas inventory.
 
-**Second method.** labelled_numeric.py independently constructs **all** labeled graph masks for n=3..6 (8, 64, 1024, 32768 graphs), builds graph matrices without NetworkX, identifies the candidate's labeled orbit through permutations and evaluates least eigenvalues by NumPy eigvalsh. All 16 order/parameter cases agree (labelled_numeric.log). This genuinely independent graph generation and spectral method is **floating-point corroboration**, not a second exact proof. For n=7, the exact atlas check has no independent full-catalogue second method in this contribution; the guide's earlier nauty scan was for the first minimum, not this second-place statement.
+**Second method.** labelled_numeric.py independently constructs **all** labeled graph masks for n=3..6 (8, 64, 1024, 32768 graphs), builds graph matrices without NetworkX, identifies the candidate's labeled orbit through permutations and evaluates least eigenvalues by NumPy eigvalsh. All 16 order/parameter cases agree (labelled_numeric.log). This genuinely independent graph generation and spectral method is **floating-point corroboration**, not a second exact proof. **Additional independently generated n=7 method.** recursive_unlabeled.py constructs all isomorphism classes from scratch, starting at one vertex, appending a new vertex with every possible neighborhood, and deduplicating each level by VF2 graph isomorphism. It does **not** read NetworkX's atlas. The generated class counts are 2,4,11,34,156,1044 at orders 2 through 7, and its NumPy/LAPACK second-place check agrees for **all 20** (n,alpha) pairs, including every n=7 class; see recursive_unlabeled.log. It is independently generated but numerical; the atlas scan remains the exact arithmetic method. Completeness follows inductively because every n-vertex graph has an (n-1)-vertex induced subgraph and each possible new-neighbor subset is visited.
 
 **Unresolved beyond these cases.** Results suggest K_{n/2-1,n/2+1} at every even n>=4, and K_{(n-1)/2,(n+1)/2}-e at every odd n>=5. **This is a conjecture, not a proved all-n second-minimum result.** No claim about all real alpha is inferred from the four-point grid. The n=3 exception is proved separately.
 
@@ -159,17 +159,19 @@ From the repository root, using free Python 3 and free NetworkX/NumPy only for t
     OPENBLAS_NUM_THREADS=1 python3 p30stability/atlas_exact.py > /tmp/p30_atlas.log
     OPENBLAS_NUM_THREADS=1 python3 p30stability/labelled_numeric.py > /tmp/p30_labelled.log
     python3 p30stability/identity_check.py > /tmp/p30_identity.log
+    OPENBLAS_NUM_THREADS=1 python3 p30stability/recursive_unlabeled.py > /tmp/p30_recursive.log
     diff -u p30stability/atlas_exact.log /tmp/p30_atlas.log
     diff -u p30stability/labelled_numeric.log /tmp/p30_labelled.log
     diff -u p30stability/identity_check.log /tmp/p30_identity.log
+    diff -u p30stability/recursive_unlabeled.log /tmp/p30_recursive.log
     (cd p30stability && sha256sum -c SHA256SUMS)
 
-SHA256SUMS includes this report and every program/log but does not include itself. atlas_exact is a rational certificate only at the four rational alpha checkpoints and depends on the atlas inventory; labelled_numeric independently enumerates only n<=6. identity_check verifies (1) for rational Perron eigenpairs (both balanced and unbalanced) with exact arithmetic, but does **not** mechanically certify the full theorem (S).
+SHA256SUMS includes this report and every program/log but does not include itself. atlas_exact is a rational certificate only at the four rational alpha checkpoints and depends on the atlas inventory; labelled_numeric independently enumerates all labeled n<=6; recursive_unlabeled independently generates all unlabeled classes through n=7 and verifies the four-point ranking numerically. identity_check verifies (1) for rational Perron eigenpairs (balanced and unbalanced) with exact arithmetic, but does **not** mechanically certify the full theorem (S).
 
 ## Not covered
 
 - **No all-n/all-alpha proof of the second distinct least eigenvalue or classification of ties.** Parity candidates are finite evidence only. No special transition in alpha has been excluded for larger n.
-- **No full independent n=7 catalogue** for the runner-up, no n>=8 runner-up enumeration and no exact irrational-alpha finite enumeration. The all-n result is the *stability bound*, not the runner-up conjecture.
+- No n>=8 runner-up enumeration and no exact irrational-alpha finite enumeration. At n=7, two independent catalogue constructions (atlas and recursive VF2) agree, but only the atlas spectral comparison uses exact arithmetic. The all-n result is the *stability bound*, not the runner-up conjecture.
 - No asymptotically sharp constant in (S); L_* is huge and degenerates near alpha=0 and 1/2. No optimal epsilon scaling or inverse theorem.
 - No fixed-(n,m) minimizer classification, even for all feasible connected bipartite edge counts.
 - No comprehensive literature/citation priority certification, especially for adjacency runner-up results and the BCRS errata.
