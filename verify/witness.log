@@ -1,0 +1,20 @@
+PASS P29 counterexample K3 alpha=0 : lambda_min=-1, maxcut=2, claimed_upper=-4/3
+PASS P29 corrected Rayleigh formula K3 : lambda_min=-1 <= corrected_upper=-2/3
+PASS P22 informal equality conjecture alpha=1/4 : degrees=[4, 3, 3, 3, 3], D^-1 Aalpha D rowsums=[13/4, 13/4, 13/4, 13/4, 13/4], rho=13/4
+PASS T26(ii) endpoint uniqueness alpha=1 : non-S_5,2 degrees=[4, 3, 3, 3, 3], S_5,2 degrees=[4, 4, 2, 2, 2], both rho=4; graph is 3-colorable
+PASS P31(a) endpoint equality : lambda_2=3, degrees=[3, 3, 2, 2], bound=3
+PASS P31(a) INTERIOR equality : alpha=3/4 spectrum=[2 - sqrt(2)/2, 3/2, 2, sqrt(2)/2 + 2], lambda_2=2=alpha*n-1, graph != K4
+PASS P16/C17 endpoint automorphism : degrees=[3, 3, 2, 2], x=[1, 0, 0, 0] Perron eigenvector and equivalent vertices 0,1 unequal
+PASS P18 lower equality at alpha=0 : lambda(A)=sqrt(2), connected nonregular degrees=[1, 2, 1]
+PASS P18 upper equality at alpha=1 : rho=2, Delta=2, connected nonregular
+PASS C33 alpha=1 diameter fails : path diameter 2, only 2 distinct eigenvalues (requires 3)
+PASS P11 endpoint uniqueness alpha=1 : K3 rho=2 equals star_bound=2, but K3 != K1,2
+PASS P11/C12 Delta=0 oversight : K1 rho=0 but claimed lower bound 1/4
+PASS P8 chromatic r=1 oversight : edgeless K1 at alpha=1/4 has PSD zero matrix; alpha < 1/r = 1
+PASS Question5 nondifferentiability : K3 branch=2, star branch=2*a + sqrt(16*a**2 - 24*a + 12)/2, crossing at 1/2, left derivative 0, right derivative 1
+PASS p.6 table third entry refuted : k=2 star K1,13: actual lambda(A_1/2)=7; paper table=13/2
+PASS p.6 other table entries and corrected third entry k=2..100, alpha=0,1/2,1 via exact 2x2 quotient
+PASS P37/P38 exact complete bipartite spectra: a=1..10, b=1..a, alpha=0,1/4,1/2,3/4,1; 275 instances
+PASS P36 complete-graph spectra n=2..10 alpha=0,1/4,1/2,3/4,1; 45 instances
+PASS P14 join quotient K2 join E3 at five rational alphas
+PASS T26(iii) displayed eigenvector weights for partitions (2,1,3) and (4,2,1,1)

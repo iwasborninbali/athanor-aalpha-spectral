@@ -1,0 +1,7 @@
+order 7 random_graphs 1000 cumulative_graphs 1000 cpu_s 0.32
+order 8 random_graphs 1000 cumulative_graphs 2000 cpu_s 0.67
+order 10 random_graphs 1000 cumulative_graphs 3000 cpu_s 1.03
+order 12 random_graphs 1000 cumulative_graphs 4000 cpu_s 1.42
+order 16 random_graphs 1000 cumulative_graphs 5000 cpu_s 1.87
+order 20 random_graphs 1000 cumulative_graphs 6000 cpu_s 2.39
+PASS random graphs 6000 graph_alpha_pairs 54000 seed 20261115 n_orders (7, 8, 10, 12, 16, 20) alphas (0, 0.1, 0.25, 0.4, 0.5, 0.6, 0.75, 0.9, 1) cpu_s 2.392

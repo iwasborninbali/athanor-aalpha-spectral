@@ -1,0 +1,71 @@
+n=1 labeled_graphs=1 cumulative=1 cpu_s=0.00
+n=2 labeled_graphs=2 cumulative=3 cpu_s=0.00
+n=3 labeled_graphs=8 cumulative=11 cpu_s=0.01
+n=4 labeled_graphs=64 cumulative=75 cpu_s=0.07
+n=5 labeled_graphs=1024 cumulative=1099 cpu_s=1.19
+n=6 labeled_graphs=32768 cumulative=33867 cpu_s=31.81
+ALPHAS (0.0, 0.25, 0.5, 0.75, 1.0) nmax 6
+COUNT C12_high 67734
+COUNT C12_low 101601
+COUNT C19_RMS 169335
+COUNT C19_mean 169335
+COUNT C21_lower 169305
+COUNT C21_upper 169305
+COUNT C33_distinct 2316
+COUNT P10_lower 1010065
+COUNT P10_upper 1010065
+COUNT P11_bound 169335
+COUNT P18_lower 169335
+COUNT P18_upper 169335
+COUNT P20_lower 141315
+COUNT P20_upper 141315
+COUNT P23_lower 169335
+COUNT P23_upper 169335
+COUNT P29_corrected 169335
+COUNT P29_original 169335
+COUNT P31a 101598
+COUNT P31b 67732
+COUNT P32_distance_equal 22563
+COUNT P32_distance_short 11697
+COUNT P34_trace 169335
+COUNT P35_trace_sq 169335
+COUNT P3_monotone 135468
+COUNT P4_Lipschitz 135468
+COUNT P6_PD 56526
+COUNT P6_PSD 67734
+COUNT P8_neg_min 383
+COUNT P9_degree_bound 1010065
+COUNT P9_radius 169335
+COUNT T25_i 11206
+COUNT T25_ii 11206
+COUNT T25_iii 5603
+COUNT T26_i 198004
+COUNT T26_ii 102055
+COUNT T26_iii 39286
+COUNT T27_i 199468
+COUNT T27_ii 34882
+COUNT T27_iii 39910
+COUNT graph_alpha_pairs 169335
+COUNT graphs 33867
+COUNT graphs_n1 1
+COUNT graphs_n2 2
+COUNT graphs_n3 8
+COUNT graphs_n4 64
+COUNT graphs_n5 1024
+COUNT graphs_n6 32768
+FAIL C12_high n/mask/alpha/observed/claimed (1, 0, 0.5, 0.5, 0.0)
+FAIL C12_low n/mask/alpha/observed/claimed (1, 0, 0.25, 0.25, 0.0)
+FAIL P11_bound n/mask/alpha/observed/claimed (1, 0, 0.25, 0.25, 0.0)
+FAIL P29_original n/mask/alpha/observed/claimed (3, 7, 0.0, -1.0, -1.33333333333)
+EQUALITY P20lower@0.25 477 first_n_mask (5, 495)
+EQUALITY P20lower@0.5 43 first_n_mask (3, 3)
+EQUALITY P20upper@0.25 477 first_n_mask (5, 495)
+EQUALITY P20upper@0.5 43 first_n_mask (3, 3)
+EQUALITY P20upper@1.0 27310 first_n_mask (3, 3)
+EQUALITY P31a_noncomplete_endpoint 766 first_n_mask None
+MINIMUM_P30 (2, 0.25) lambda_mask (-0.5, 1)
+MINIMUM_P30 (3, 0.25) lambda_mask (-0.693000468, 3)
+MINIMUM_P30 (4, 0.25) lambda_mask (-1.0, 30)
+MINIMUM_P30 (5, 0.25) lambda_mask (-1.216364983, 126)
+MINIMUM_P30 (6, 0.25) lambda_mask (-1.5, 4060)
+CPU_SECONDS 31.815
