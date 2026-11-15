@@ -1,0 +1,16 @@
+exact_checker v1
+python 3.13.5 sympy 1.14.0
+Q5 K2+K1 characteristic polynomial: -lambda*(lambda - 1)*(2*a - lambda - 1)
+clique_share n=3: exact eigenpair lambda=a; vertices=3; edges=2; VERIFIED
+clique_share n=5: exact eigenpair lambda=a + 1; vertices=5; edges=6; VERIFIED
+ n=5 alpha=0 second_eigenvalue=1.000000000000 formula=1.000000000000 OK
+ n=5 alpha=1/4 second_eigenvalue=1.250000000000 formula=1.250000000000 OK
+ n=5 alpha=49/100 second_eigenvalue=1.490000000000 formula=1.490000000000 OK
+ n=5 alpha=1/2 second_eigenvalue=1.500000000000 formula=1.500000000000 OK
+clique_share n=7: exact eigenpair lambda=a + 2; vertices=7; edges=12; VERIFIED
+ n=7 alpha=0 second_eigenvalue=2.000000000000 formula=2.000000000000 OK
+ n=7 alpha=1/4 second_eigenvalue=2.250000000000 formula=2.250000000000 OK
+ n=7 alpha=49/100 second_eigenvalue=2.490000000000 formula=2.490000000000 OK
+ n=7 alpha=1/2 second_eigenvalue=2.500000000000 formula=2.500000000000 OK
+Krs quotient charpoly: 2*a*r*s - a*r*t - a*s*t - r*s + t**2
+END exact_checker
